@@ -10,6 +10,11 @@ Một ứng dụng web full-stack sử dụng mô hình CNN từ TensorFlow và 
 - **Dự đoán thời gian thực**: Tải lên ảnh và nhận kết quả ngay lập tức
 - **Độ tin cậy**: Hiển thị phần trăm độ tin cậy của dự đoán
 
+## Đường dẫn các trang demo:
+- **Đường dẫn backend:** https://gos-vision-be.onrender.com
+- **Đường dẫn trang web:** https://gos-assignment.netlify.app/
+- **Lưu ý:** Do backend được deploy lên **Render**, do đó khi sử dụng trang web thì cần chờ khoảng 50s trở lên để backend khởi động hoàn toàn.
+
 ## Kiến trúc dự án
 
 ```
@@ -22,7 +27,8 @@ GOS_CV/
 │   └── frontend/          # Ứng dụng React
 │       ├── src/
 │       │   ├── App.tsx    # Thành phần chính
-│       │   └── App.css    # Style
+│       │   ├── App.css    # Style
+│       │   └── ...
 │       └── package.json
 ├── create_data/           # Dữ liệu huấn luyện và notebook
 └── model/                 # Notebook huấn luyện model
@@ -69,12 +75,17 @@ API sẽ chạy tại: http://localhost:8000
 cd code/frontend
 ```
 
-2. Cài đặt các package:
+2. Tạo tập tin .env chứa thông tin đường dẫn của backend. Ví dụ:
+```bash
+VITE_API_URL="http://localhost:8000"
+```
+
+3. Cài đặt các package:
 ```bash
 npm install
 ```
 
-3. Khởi động server phát triển:
+4. Khởi động server phát triển:
 ```bash
 npm run dev
 ```

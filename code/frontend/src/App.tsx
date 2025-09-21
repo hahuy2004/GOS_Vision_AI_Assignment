@@ -47,8 +47,9 @@ function App() {
       const formData = new FormData()
       formData.append('file', selectedFile)
 
-    const apiUrl = import.meta.env.VITE_API_URL || 'http://localhost:8000';
-    // const apiUrl = 'http://localhost:8000';
+    // Chọn URL backend phù hợp
+    const apiUrl = 'http://localhost:8000';
+    // const apiUrl = 'https://gos-vision-be.onrender.com';
     const response = await fetch(`${apiUrl}/predict`, {
         method: 'POST',
         body: formData,
