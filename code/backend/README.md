@@ -15,6 +15,7 @@ Backend FastAPI dùng để phân loại ảnh chó và mèo bằng mô hình CN
 1. Tạo môi trường .venv và cài đặt các thư viện Python:
 ```bash
 python -m venv .venv
+.venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
