@@ -75,17 +75,12 @@ API sẽ chạy tại: http://localhost:8000
 cd code/frontend
 ```
 
-2. Tạo tập tin .env chứa thông tin đường dẫn của backend. Ví dụ:
-```bash
-VITE_API_URL="http://localhost:8000"
-```
-
-3. Cài đặt các package:
+2. Cài đặt các package:
 ```bash
 npm install
 ```
 
-4. Khởi động server phát triển:
+3. Khởi động server phát triển:
 ```bash
 npm run dev
 ```
