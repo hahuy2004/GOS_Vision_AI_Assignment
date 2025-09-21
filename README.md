@@ -10,9 +10,10 @@ Một ứng dụng web full-stack sử dụng mô hình CNN từ TensorFlow và 
 - **Dự đoán thời gian thực**: Tải lên ảnh và nhận kết quả ngay lập tức
 - **Độ tin cậy**: Hiển thị phần trăm độ tin cậy của dự đoán
 
-## Đường dẫn các trang demo:
+## Đường dẫn các trang:
 - **Đường dẫn backend:** https://gos-vision-be.onrender.com
 - **Đường dẫn trang web:** https://gos-assignment.netlify.app/
+- **Đường dẫn nơi lưu trữ dữ liệu, mô hình, ... :** https://drive.google.com/drive/folders/1z0_ia5F8bkjRCYpNn0qqiM6EpRAjliKN?usp=drive_link
 - **Lưu ý:** Do backend được deploy lên **Render**, do đó khi sử dụng trang web thì cần chờ khoảng 50s trở lên để backend khởi động hoàn toàn.
 
 ## Kiến trúc dự án
