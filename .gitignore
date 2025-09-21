@@ -1,0 +1,28 @@
+# Ignore .env files in frontend
+/code/frontend/.env
+
+# Ignore .git folder in backend
+/code/backend/.git/
+
+# Ignore data folders and files
+/create_data/data/
+/create_data/pet_images/
+/create_data/data.zip
+
+# Ignore Python cache and model files
+__pycache__/
+
+# Ignore Jupyter Notebook checkpoints
+model/.ipynb_checkpoints/
+
+# Ignore node_modules in frontend
+/frontend/node_modules/
+
+# Ignore VSCode settings
+.vscode/
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+/code/backend/.venv/
