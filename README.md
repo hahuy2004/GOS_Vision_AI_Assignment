@@ -32,7 +32,8 @@ GOS_CV/
 │       │   └── ...
 │       └── package.json
 ├── create_data/           # Các tập tin tạo dữ liệu huấn luyện
-└── model/                 # Notebook huấn luyện model
+├── model/                 # Notebook huấn luyện model
+└── Report_GOS             # Báo cáo
 
 ```
 
