@@ -14,6 +14,7 @@ Một ứng dụng web full-stack sử dụng mô hình CNN từ TensorFlow và 
 - **Đường dẫn backend:** https://gos-vision-be.onrender.com
 - **Đường dẫn trang web:** https://gos-assignment.netlify.app/
 - **Đường dẫn nơi lưu trữ dữ liệu, mô hình, ... :** https://drive.google.com/drive/folders/1z0_ia5F8bkjRCYpNn0qqiM6EpRAjliKN?usp=drive_link
+- **Cách sử dụng trang web:** Đầu tiên, mở đường dẫn backend để khởi động backend, sau đó mở đường dẫn trang web để sử dụng.
 - **Lưu ý:** Do backend được deploy lên **Render**, do đó khi sử dụng trang web thì cần chờ khoảng 1 phút trở lên để backend khởi động hoàn toàn.
 
 ## Kiến trúc dự án
